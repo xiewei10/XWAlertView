@@ -19,7 +19,8 @@
     
 }
 - (IBAction)alertView:(UIButton *)sender {
-    XWAlertView *view = [[XWAlertView alloc]initWithTitle:@"标题" des:@"这是描述 可以很长 反正都是只适应的 的萨的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达大" btnArray:@[@"iOS",@"python",@"java"]];
+    
+    XWAlertView *view = [[XWAlertView alloc]initWithTitle:@"标题" des:@"这是描述 可以很长 反正都是只适应的 的萨的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达的萨达的萨萨达大" btnArray:@[@"iOS",@"python",@"java"]];
     
     [view showInView:self.view];
     

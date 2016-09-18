@@ -128,10 +128,6 @@
     
 }
 
-
-
-
-
 #pragma mark ---- 动画
 #pragma mark -- 出现
 - (void)toAnimation{
@@ -170,7 +166,7 @@
             [snapshots         addObject:snapshot];
         }
     }
-
+    
     for (UIView *view in snapshots) {
         view.transform = CGAffineTransformMakeTranslation([self randomRange:100 offset:0],[self randomRange:200 offset:100]);
     }
