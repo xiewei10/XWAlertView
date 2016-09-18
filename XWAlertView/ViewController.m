@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XWAlertView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)alertView:(UIButton *)sender {
+    XWAlertView *view = [[XWAlertView alloc]initWithTitle:@"标题" des:@"这是描述 可以很长 反正都是只适应的 的萨的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达的萨达大" btnArray:@[@"iOS",@"python",@"java"]];
+    
+    [view showInView:self.view];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

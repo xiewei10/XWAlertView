@@ -13,6 +13,7 @@
 		5D5C2A9E1D8E2E2B00DA9448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C2A9C1D8E2E2B00DA9448 /* Main.storyboard */; };
 		5D5C2AA01D8E2E2B00DA9448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C2A9F1D8E2E2B00DA9448 /* Assets.xcassets */; };
 		5D5C2AA31D8E2E2B00DA9448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C2AA11D8E2E2B00DA9448 /* LaunchScreen.storyboard */; };
+		5D5C2AAD1D8E2EC500DA9448 /* XWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C2AAC1D8E2EC500DA9448 /* XWAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5D5C2A9F1D8E2E2B00DA9448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5C2AA21D8E2E2B00DA9448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D5C2AA41D8E2E2B00DA9448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5C2AAB1D8E2EC500DA9448 /* XWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlertView.h; sourceTree = "<group>"; };
+		5D5C2AAC1D8E2EC500DA9448 /* XWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		5D5C2A921D8E2E2B00DA9448 /* XWAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				5D5C2AAA1D8E2EB800DA9448 /* View */,
 				5D5C2A961D8E2E2B00DA9448 /* AppDelegate.h */,
 				5D5C2A971D8E2E2B00DA9448 /* AppDelegate.m */,
 				5D5C2A991D8E2E2B00DA9448 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				5D5C2A941D8E2E2B00DA9448 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5C2AAA1D8E2EB800DA9448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5C2AAB1D8E2EC500DA9448 /* XWAlertView.h */,
+				5D5C2AAC1D8E2EC500DA9448 /* XWAlertView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				5D5C2A9B1D8E2E2B00DA9448 /* ViewController.m in Sources */,
 				5D5C2A981D8E2E2B00DA9448 /* AppDelegate.m in Sources */,
+				5D5C2AAD1D8E2EC500DA9448 /* XWAlertView.m in Sources */,
 				5D5C2A951D8E2E2B00DA9448 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +316,7 @@
 				5D5C2AA91D8E2E2B00DA9448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
